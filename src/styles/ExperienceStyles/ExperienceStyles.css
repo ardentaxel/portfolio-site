@@ -1,0 +1,42 @@
+.experience {
+    height:180vh;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.experience-content {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.exp-cards {
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    margin-top: 50px;
+}
+
+.even {
+   align-self: flex-start;
+}
+  
+.odd {
+    align-self: flex-end;
+}
+
+
+
+.page-title {
+    font-size: 2.2rem;
+    font-weight: 500;
+    height: fit-content;
+
+}

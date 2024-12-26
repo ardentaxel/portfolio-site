@@ -1,0 +1,83 @@
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.content {
+    display: flex;
+    width: 75%;
+    
+}
+
+.card {
+    padding: 0;
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.about-title {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.about-bio {
+    font-size: 1.9rem;
+    margin-bottom: 2px;
+}
+
+.location, .about-name, .word {
+   color: #EEEEEE;
+   font-weight: 500;
+}
+
+.tabs {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+@media  (max-width: 1140px) {
+    .about-section {
+        
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .tabs {
+        width: 100%;
+        align-self: center;
+        flex-wrap: wrap;
+    }
+
+    .about-title {
+        font-size: 1.8rem;
+    }
+
+    .about-bio {
+        font-size: 1.1rem;
+    }
+
+    .tabs {
+        font-size: 1.1rem;
+    }
+}

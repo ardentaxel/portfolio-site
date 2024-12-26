@@ -1,0 +1,98 @@
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: height 0.5s ease;
+    height: 100vh;
+    /* background-color: #f8f9fa; */
+    
+}
+
+.hero-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.intro-header {
+    font-size: 2.8rem;
+}
+
+.intro-text{
+    font-size: 2.3rem;
+}
+
+
+p  {
+    margin-bottom: 20px;
+    color: #20C20E;
+}
+
+.btn {
+    
+    padding: 12px 32px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: 2px solid #20C20E;
+    font-weight: 600;
+    cursor: pointer;
+    background: transparent;
+    color: #EEEEEE;
+    transition: ease-out 0.3s;
+    text-align: center;
+  }
+
+  .btn:hover {
+    border: 2px solid #EEEEEE;
+    color: #20C20E;
+    font-size: 2.3rem;
+    transform: scale(1.1,1.1);
+  }
+
+.mono {
+    font-family: monospace;
+    color: #20C20E;
+}
+
+
+
+.meBrown {
+    height: auto;
+    width: 400px;
+    border-radius: 200%;
+    opacity: 0.8;
+}
+
+@media (max-width: 1140px) {
+    
+
+    .hero-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .intro-header {
+        margin-top: 5px;
+        font-size: 1.8rem;
+        margin-bottom: 5px;
+    }
+    .intro-text{
+        font-size: 1.3rem;
+    }
+    .btn {
+        font-size: 1.5rem;
+    }
+}
+
+
+

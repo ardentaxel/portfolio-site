@@ -1,0 +1,49 @@
+.footer {
+    height: 50vh;;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    width: 100%;
+}
+
+.contact, .general, .footer-projects {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.4rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #724F9C;
+}
+
+.footer-heading {
+    margin-bottom: 15px;
+    color: #EEEEEE;
+}
+
+@media (max-width: 1140px) {
+    .footer {
+        height: 150vh;
+    }
+    .footer-content {
+        
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-projects {
+        align-items: center;
+    }
+    .project-items {
+        text-align: center; 
+    }
+}

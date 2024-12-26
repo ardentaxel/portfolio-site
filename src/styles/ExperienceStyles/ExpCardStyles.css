@@ -1,0 +1,39 @@
+.exp-card {
+    background-color: #FFFFFF;
+    color: black;
+    word-wrap: break-word;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.description {
+    padding: 0 20px;
+    margin-top: 0px;
+}
+
+.job-title, .job-role{
+    margin: 0px;
+}
+
+.job-title {
+    margin-bottom: 5px;
+    color:#724F9C;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.job-role{
+    margin-bottom: 10px;
+    color: #757575;
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.description {
+    font-size: 1.1rem;
+}

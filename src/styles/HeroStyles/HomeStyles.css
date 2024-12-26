@@ -1,0 +1,28 @@
+
+.sections {
+    overflow-y: scroll;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+}
+
+.section {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.hero-section, .about-section-container,
+.exp-section, .project-section, .footer-section{
+    scroll-snap-align: start;
+    border-top: 2px dashed #20C20E;
+}
+
+@media (max-width: 1300px) {
+    .hero-section, .about-section-container,
+.exp-section, .project-section, .footer-section{
+    scroll-snap-align: none;
+}
+}
+
+
+
+

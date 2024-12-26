@@ -1,0 +1,80 @@
+.about-container {
+    display: flex;
+    text-align: left;
+    
+}
+
+.about-content {
+    margin: 15px 0 0 25px;
+    width: 80%;
+}
+
+.header {
+    color: yellow;
+}
+
+.about-text {
+    font-size: larger;
+    color: white;
+}
+
+.highlight {
+    color: #24de0f;
+    text-decoration: solid;
+}
+
+.highlight:hover {
+    color: yellow;
+}
+
+.programming-languages {
+    display: flex;
+    gap: 15px;
+    font-size: larger;
+    flex-wrap: wrap;
+}
+
+.programming-language {
+    display: flex;
+    vertical-align: middle;
+    gap: 8px;
+}
+
+.frameworks {
+    color: white;
+    list-style-type: square;
+    font-size: larger;
+}
+
+.frameworks li::marker {
+    color: yellow;
+}
+.meme-img {
+    display: flex;
+    justify-content: center;
+}
+.meme { 
+    width: 40%;
+
+}
+
+@media (max-width: 930px) {
+    .meme { 
+        width: 50%;
+    }
+}
+
+@media (max-width:780px) {
+    .meme { 
+        width: 60%;
+    }
+}
+
+@media (max-width:360px) {
+    .meme { 
+        width: 70%;
+    }
+}
+
+
+

@@ -1,0 +1,68 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(40% - 20px);
+    margin: 10px;
+    border-radius: 20px;
+    margin: 0px 20px;
+    border: 2px solid #20C20E;
+    height: max-content;
+    margin-bottom: 30px;
+}
+
+.project-title {
+    color:#EEEEEE;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.techno-tabs {
+    display: flex;
+    gap: 10px;
+}
+
+.project-desc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px ;
+    word-wrap: break-word;
+    text-align: justify;
+    width: 90%;
+    margin-top: 10px;
+    font-size: 1.6rem;
+    
+}
+
+.carousel {
+    width: 100%;
+}
+
+
+.project-description-container {
+    align-self: first baseline;
+    margin: 0 6px ;
+}
+
+
+@media  (max-width: 1140px) {
+    .project-container{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .project-title{
+        font-size: 1.5rem;
+    }
+    .project-desc {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+

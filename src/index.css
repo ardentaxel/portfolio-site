@@ -1,0 +1,12 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  font-family: 'Code New Roman', sans-serif;                                             
+  background-color: black;
+  color: #24de0f;
+  width: 100%;
+}
+

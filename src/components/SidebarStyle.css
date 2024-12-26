@@ -1,0 +1,178 @@
+.sidebar-container {
+    width: 30vw;
+    border-right: 1px solid grey;
+    top: 0;
+    z-index: 0;
+    height: 100%;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.sidebar-content-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.follow-btn {
+    display: none;
+}
+
+.profile-img {
+    border: 3px solid grey;
+    border-radius: 100%;
+    width: 35%;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.profile-name, .profile-description {
+    margin-bottom: 0;
+}
+
+.profile-name {
+    margin-top: 15px;
+    font-size: larger;
+    color: yellow;
+}
+
+
+
+
+.profile-description {
+    color: white;
+    font-size: medium;
+    margin-top: 0;
+    word-wrap: break-word;
+}
+
+
+.profile-name:hover {
+    color: yellow;
+}
+
+.profile-socials{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile-socials a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    gap: 8px;
+    column-gap: 16px;
+    font-size: 14px;
+    cursor: pointer; 
+}
+
+.profile-socials a:hover {
+    color: yellow;
+    
+}
+
+.email-logo, .github-logo, .linkedin-logo {
+    color: white;
+    height: 24px;
+    width: 24px;
+}
+
+
+
+.location-logo {
+    color: white;
+    height: 26px;
+    width: 26px;
+}
+
+@media (max-width:930px) {
+    .sidebar-container {
+        width: 100%;
+        height: auto;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: #181818;
+        border-bottom: 1px solid grey;
+        
+    }
+
+    .profile-text {
+        text-align: left;
+    }
+    .profile-img {
+        width: 50px;
+    }
+
+    .sidebar-content {
+        flex-direction: row;
+        margin-top: 0;
+        padding: 0;
+        margin-left: 15px;
+    }
+
+    .sidebar-content-profile {
+        flex-direction: row;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .profile-socials {
+        flex-direction: row;
+        margin-bottom: 37px;
+        margin-left: 6%;
+    }
+
+    .profile-name {
+        margin-left: 10px;
+        margin-top: 0;
+    }
+ }
+
+@media (max-width:780px) {
+
+    .sidebar-content {
+        width: 100%;
+    }
+
+    .sidebar-content-profile {
+        width: 100%;
+    }
+
+    .profile-text {
+        /* flex-direction: row; */
+        width: 100%;
+    }
+
+    .profile-socials {
+        display: none;
+    }
+}
+
+@media (max-width:360px) {
+    .profile-img {
+        display: none;
+    }
+}
+
+

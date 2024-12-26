@@ -1,0 +1,38 @@
+.skill-container {
+    display: flex;
+    gap: 8px;
+    color: white;
+}
+/* /* div.track, div.bar {
+    box-sizing: border-box;
+    position: relative;
+} */
+ 
+div.progress {
+    width: 190px;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 21px;
+    border-radius: 5px;
+    border: solid 3px white;
+    border: solid 3px #24de0f;
+}
+ 
+div.track {
+    width: 100%;
+    height: 21px;
+}
+
+
+ 
+div.bar {
+    height: 15px;
+    width: 7.8%;
+    background-color: yellow;
+    position: inherit;
+    border-radius:2px;
+    margin: 3px 2px 100px 2px;
+    top: 3px; 
+    float: left;
+    
+}

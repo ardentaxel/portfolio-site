@@ -1,0 +1,55 @@
+{
+    "portfolio": {
+        "portfolioTitle" : "Portfolio Site",
+        "portfolioTechnologies" : ["ReactJS", "CSS"],
+        "portfolioProjectDescription" : [
+            "Designed and developed a dynamic portfolio website using ReactJS and CSS, providing a personalized and interactive platform to showcase my skills and projects."
+        ],
+        "portfolioSlides" : [
+            {
+                "src" : "assets/portfolio-project.png"
+            }
+        ]
+    },
+
+    "conway":{
+        "conwayTitle": "Conway's Game of Life - Bounded",
+        "conwayTechnologies" : ["Java", "JavaFX"],
+        "conwayProjectDescription" : [
+            "Engineered an interactive simulation of Conway’s Game of Life using Java and JavaFX. This project presents a unique take on the classic cellular automaton, encapsulated within a graphical user interface."
+        ],
+        "conwaySlides" : [
+            {
+                "src" : "assets/conway1.png"
+            },
+            {
+                "src" : "assets/conway2.png"
+            }
+        ],
+        "conwayLink": "https://github.com/ardentaxel/Conways-Game-of-Life"
+    },
+
+    "smtp": {
+        "smtpTitle": "Simple Mail Transfer Protocol Client",
+        "smtpTechnologies" : ["Java", "JavaFX"],
+        "smtpProjectDescription" : [
+            "Developed a GUI-based mail client using Java and JavaFX to interact with a Papercut SMTP server."
+        ],
+        "smtpSlides" : [
+            {
+                "src" : "assets/smtp1.jpg"
+            },
+            {
+                "src" : "assets/smtp2.jpg"
+            },
+            {
+                "src" : "assets/smtp3.jpg"
+            },
+            {
+                "src" : "assets/smtp4.jpg"
+            }
+        ],
+        "smtpLink": "https://github.com/ardentaxel/SMTP_Mail_Client"
+        
+    }
+}
